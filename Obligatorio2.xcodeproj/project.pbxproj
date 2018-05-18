@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7830A4156FF1942CCBA3CF8A /* Pods_Obligatorio2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2379F99CC7EAFE6166C9B5E /* Pods_Obligatorio2.framework */; };
 		95D0A3EE20AE37200026EF80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D0A3ED20AE37200026EF80 /* AppDelegate.swift */; };
 		95D0A3F020AE37200026EF80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D0A3EF20AE37200026EF80 /* ViewController.swift */; };
 		95D0A3F320AE37200026EF80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95D0A3F120AE37200026EF80 /* Main.storyboard */; };
 		95D0A3F520AE37200026EF80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95D0A3F420AE37200026EF80 /* Assets.xcassets */; };
 		95D0A3F820AE37200026EF80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95D0A3F620AE37200026EF80 /* LaunchScreen.storyboard */; };
+		95D0A40020AE4A100026EF80 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D0A3FF20AE4A100026EF80 /* Constants.swift */; };
+		95D0A40220AE4CCB0026EF80 /* Atm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D0A40120AE4CCB0026EF80 /* Atm.swift */; };
+		95D0A40420AE5A930026EF80 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D0A40320AE5A930026EF80 /* ApiManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1526F284B35530FAAA84CB38 /* Pods-Obligatorio2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Obligatorio2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Obligatorio2/Pods-Obligatorio2.release.xcconfig"; sourceTree = "<group>"; };
 		95D0A3EA20AE37200026EF80 /* Obligatorio2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Obligatorio2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95D0A3ED20AE37200026EF80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95D0A3EF20AE37200026EF80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,11 @@
 		95D0A3F420AE37200026EF80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95D0A3F720AE37200026EF80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95D0A3F920AE37200026EF80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95D0A3FF20AE4A100026EF80 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		95D0A40120AE4CCB0026EF80 /* Atm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atm.swift; sourceTree = "<group>"; };
+		95D0A40320AE5A930026EF80 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		A2379F99CC7EAFE6166C9B5E /* Pods_Obligatorio2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Obligatorio2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC415589EB6913DD6940AB98 /* Pods-Obligatorio2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Obligatorio2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Obligatorio2/Pods-Obligatorio2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7830A4156FF1942CCBA3CF8A /* Pods_Obligatorio2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1618FC8391C96F359D62DEB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2379F99CC7EAFE6166C9B5E /* Pods_Obligatorio2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25D7029737D500F8ED958E60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC415589EB6913DD6940AB98 /* Pods-Obligatorio2.debug.xcconfig */,
+				1526F284B35530FAAA84CB38 /* Pods-Obligatorio2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		95D0A3E120AE37200026EF80 = {
 			isa = PBXGroup;
 			children = (
 				95D0A3EC20AE37200026EF80 /* Obligatorio2 */,
 				95D0A3EB20AE37200026EF80 /* Products */,
+				25D7029737D500F8ED958E60 /* Pods */,
+				1618FC8391C96F359D62DEB7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,7 +89,10 @@
 				95D0A3F120AE37200026EF80 /* Main.storyboard */,
 				95D0A3F420AE37200026EF80 /* Assets.xcassets */,
 				95D0A3F620AE37200026EF80 /* LaunchScreen.storyboard */,
+				95D0A40120AE4CCB0026EF80 /* Atm.swift */,
 				95D0A3F920AE37200026EF80 /* Info.plist */,
+				95D0A3FF20AE4A100026EF80 /* Constants.swift */,
+				95D0A40320AE5A930026EF80 /* ApiManager.swift */,
 			);
 			path = Obligatorio2;
 			sourceTree = "<group>";
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 95D0A3FC20AE37200026EF80 /* Build configuration list for PBXNativeTarget "Obligatorio2" */;
 			buildPhases = (
+				6DB1C7E3D267EA4C8719F78E /* [CP] Check Pods Manifest.lock */,
 				95D0A3E620AE37200026EF80 /* Sources */,
 				95D0A3E720AE37200026EF80 /* Frameworks */,
 				95D0A3E820AE37200026EF80 /* Resources */,
+				6D566642A40FF84ADE25D26C /* [CP] Embed Pods Frameworks */,
+				9F85074705BCFDF2C7A59392 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +167,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6D566642A40FF84ADE25D26C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Obligatorio2/Pods-Obligatorio2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Obligatorio2/Pods-Obligatorio2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DB1C7E3D267EA4C8719F78E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Obligatorio2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F85074705BCFDF2C7A59392 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Obligatorio2/Pods-Obligatorio2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		95D0A3E620AE37200026EF80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -138,6 +232,9 @@
 			files = (
 				95D0A3F020AE37200026EF80 /* ViewController.swift in Sources */,
 				95D0A3EE20AE37200026EF80 /* AppDelegate.swift in Sources */,
+				95D0A40420AE5A930026EF80 /* ApiManager.swift in Sources */,
+				95D0A40220AE4CCB0026EF80 /* Atm.swift in Sources */,
+				95D0A40020AE4A100026EF80 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +369,7 @@
 		};
 		95D0A3FD20AE37200026EF80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC415589EB6913DD6940AB98 /* Pods-Obligatorio2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +384,7 @@
 		};
 		95D0A3FE20AE37200026EF80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1526F284B35530FAAA84CB38 /* Pods-Obligatorio2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
